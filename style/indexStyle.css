@@ -10,6 +10,12 @@ body {
 	font-family: 'thermes';
 }
 
+.box {
+    float: right;
+    width: 50%;
+    height: 0%;
+}
+
 .mainElements {
     display: flex;
     align-items: center;
@@ -23,5 +29,5 @@ body {
 
 .mainText {
     color: antiquewhite;
-    float: right;
+    text-align: center;
 }
