@@ -9,3 +9,19 @@
 body {
 	font-family: 'thermes';
 }
+
+.mainElements {
+    display: flex;
+    align-items: center;
+}
+
+.mainImage {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.mainText {
+    color: antiquewhite;
+    float: right;
+}
