@@ -1,7 +1,6 @@
 @font-face {
     font-family: 'thermes';
-    src: url('../src/fonts/thermes-webfont.woff') format('woff'),
-        url('../src/fonts/thermes-webfont.woff2') format('woff2');
+    src: url('../src/fonts/uni_heavy.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
