@@ -22,11 +22,13 @@ body {
 
 .mainImage {
     width: 50%;
-    height: auto;
+    max-height: 70%;
     float: left;
 }
 
 .mainText {
     color: antiquewhite;
+    height: 25%;
+    width: auto;
     text-align: center;
 }
