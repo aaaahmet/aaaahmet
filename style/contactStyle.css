@@ -33,32 +33,11 @@ body {
 }
 
 .box {
+    height: 100%;
     margin: 0px;
-    float: right;
-    width: 50%;
-    height: 0%;
 }
-
-.mainElements {
-    display: flex;
-    align-items: center;
-}
-
-.mainImage {
-    width: 50%;
-    max-height: 70%;
-    float: left;
-}
-
-.mainText {
-    color: antiquewhite;
-    height: 25%;
-    width: auto;
-    text-align: center;
-}
-
-.galText {
+.contactInfo {
     color: antiquewhite;
     text-align: center;
-    margin-top: 5px
+    padding-top: 10%;
 }

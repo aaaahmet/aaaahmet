@@ -32,33 +32,41 @@ body {
     color: gray;
 }
 
-.box {
-    margin: 0px;
-    float: right;
-    width: 50%;
-    height: 0%;
+.pageIntro {
+    color: antiquewhite;
+    text-align: center;
 }
 
-.mainElements {
+.rowOne {
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
-.mainImage {
-    width: 50%;
-    max-height: 70%;
-    float: left;
-}
-
-.mainText {
-    color: antiquewhite;
-    height: 25%;
-    width: auto;
+.project {
+    position: relative;
     text-align: center;
 }
 
-.galText {
+.projectImg {
+    opacity: 0.7;
+    width: 90%;
+    height: auto;
+}
+
+.projectImg:hover {
+    opacity: 0.5;
+}
+
+.projectText {
     color: antiquewhite;
-    text-align: center;
-    margin-top: 5px
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 90;
+}
+
+.projectBtn:hover .projectImg {
+    opacity: 0.5;
 }
