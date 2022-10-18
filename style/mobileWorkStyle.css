@@ -34,27 +34,3 @@ body {
     color: gray;
     font-size: 200%;
 }
-
-.mainElements {
-    display: flex;
-    align-items: center;
-}
-
-.mainImage {
-    width: 100%;
-    height: auto;
-    align-items: center;
-    position: relative;
-    clear: both;
-}
-
-.mainText {
-    color: antiquewhite;
-    text-align: center;
-}
-
-.galText {
-    color: antiquewhite;
-    text-align: center;
-    margin-top: 5px
-}
