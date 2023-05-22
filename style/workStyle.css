@@ -1,36 +1,43 @@
+/* Page settings */
 @font-face {
     font-family: 'thermes';
     src: url('../src/fonts/uni_heavy.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
-
 body {
-    background-color: black;
+    background-color: #151515;
 	font-family: 'thermes';
 }
 
-.nav {
+/* Navigation */
+.navigation {
+    display: block;
     text-decoration: none;
     display: flex;
     justify-content: space-around;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
 .navText {
     text-decoration: none;
-    color: antiquewhite;
+    color: #faebd7;
 }
-
+.navigation small {
+    color: #faebd7;
+}
+.navigation b {
+    visibility: hidden;
+}
 .navText:hover {
     color: gray;
 }
-
 .navHere {
     text-decoration: none;
     color: gray;
 }
+
+/* Page Content */
 
 .pageIntro {
     color: antiquewhite;
@@ -52,6 +59,7 @@ body {
     opacity: 0.7;
     width: 90%;
     height: auto;
+    background-color: black;
 }
 
 .projectImg:hover {
