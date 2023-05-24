@@ -23,7 +23,6 @@ body {
     height: fit-content;
     display: flex;
     justify-content: space-around;
-
 }
 .navText {
     text-decoration: none;
