@@ -1,13 +1,13 @@
 /* Page settings */
 @font-face {
     font-family: 'thermes';
-    src: url('/src/fonts/uni_heavy.otf') format('opentype');
+    src: url("../../src/fonts/uni_heavy.otf") format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 body {
     background-color: #151515;
-    background-image: url("/src/img/general/background.png");
+    background-image: url("../../src/img/general/background.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -59,16 +59,11 @@ body {
     opacity: 0.2;
 }
 
-/* Page Content */ 
+/* Page Content */
+.game {
+    align-items: center;
+    display: flex;
+    min-height: calc(100vh - 50px);
+    width: 100%;
 
-.list {
-    color: antiquewhite;
-    text-decoration: none;
-}
-ul li {
-    color: antiquewhite;
-    margin-left: 10%;
-}
-ul {
-    margin-top: 100px;
 }
