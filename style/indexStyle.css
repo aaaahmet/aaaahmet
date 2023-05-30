@@ -7,6 +7,11 @@
 }
 body {
     background-color: #151515;
+    background-image: url("../src/img/general/background.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 	font-family: 'thermes';
 }
 
@@ -17,6 +22,8 @@ body {
     display: flex;
     margin-top: 10px;
     margin-bottom: 10px;
+    position: relative;
+    z-index: 1;
 }
 .navSpacer {
     width: 100%;
@@ -39,7 +46,17 @@ body {
 }
 .navHere {
     text-decoration: none;
-    color: gray;
+    color: #999999;
+}
+.navBack {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    height: 39px;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0,0,0,1) 25%, rgba(255,255,255,0) 100%);
+    opacity: 0.2;
 }
 
 /* Page Content */

@@ -1,0 +1,74 @@
+/* Page settings */
+@font-face {
+    font-family: 'thermes';
+    src: url('../src/fonts/uni_heavy.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background-color: #151515;
+    background-image: url("../src/img/general/background.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	font-family: 'thermes';
+}
+
+/* Navigation */
+.navigation {
+    display: block;
+    text-decoration: none;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 1;
+}
+.navSpacer {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+}
+.navText {
+    text-decoration: none;
+    color: #faebd7;
+}
+.navigation small {
+    color: #faebd7;
+}
+.navigation b {
+    visibility: hidden;
+}
+.navText:hover {
+    color: gray;
+}
+.navHere {
+    text-decoration: none;
+    color: #999999;
+}
+.navBack {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    height: 39px;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0,0,0,1) 25%, rgba(255,255,255,0) 100%);
+    opacity: 0.2;
+}
+
+/* Page Content */ 
+
+.list {
+    color: antiquewhite;
+    text-decoration: none;
+}
+ul li {
+    color: antiquewhite;
+    margin-left: 10%;
+}
+ul {
+    margin-top: 100px;
+}
