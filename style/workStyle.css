@@ -8,6 +8,7 @@
 body {
     background-color: #151515;
     background-image: url("/src/img/general/background.png");
+    background-image: url("../src/img/general/background.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -83,11 +84,14 @@ body {
     filter: brightness(70%);
     width: 90%;
     height: auto;
-    background-color: black;
+    z-index: 1;
 }
-
-.projectImg:hover {
-    opacity: 0.5;
+.background, .projectImg {
+    top: 0;
+    left: 0;
+}
+.project:hover {
+    filter: brightness(70%);
 }
 
 .projectText {
@@ -97,10 +101,6 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 90;
-}
-
-.projectBtn:hover .projectImg {
-    opacity: 0.5;
 }
 
 .group {
